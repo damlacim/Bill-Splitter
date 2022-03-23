@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D027937227EB11E100A8CC82 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D027937127EB11E100A8CC82 /* ResultViewController.swift */; };
 		D06BE50B27CC43BB004CFCC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BE50A27CC43BB004CFCC1 /* AppDelegate.swift */; };
 		D06BE50D27CC43BB004CFCC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BE50C27CC43BB004CFCC1 /* SceneDelegate.swift */; };
 		D06BE50F27CC43BB004CFCC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BE50E27CC43BB004CFCC1 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D027937127EB11E100A8CC82 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		D06BE50727CC43BB004CFCC1 /* Bill Splitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bill Splitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06BE50A27CC43BB004CFCC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D06BE50C27CC43BB004CFCC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				D06BE50A27CC43BB004CFCC1 /* AppDelegate.swift */,
 				D06BE50C27CC43BB004CFCC1 /* SceneDelegate.swift */,
 				D06BE50E27CC43BB004CFCC1 /* ViewController.swift */,
+				D027937127EB11E100A8CC82 /* ResultViewController.swift */,
 				D06BE51027CC43BB004CFCC1 /* Main.storyboard */,
 				D06BE51327CC43BC004CFCC1 /* Assets.xcassets */,
 				D06BE51527CC43BC004CFCC1 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				D06BE50F27CC43BB004CFCC1 /* ViewController.swift in Sources */,
 				D06BE50B27CC43BB004CFCC1 /* AppDelegate.swift in Sources */,
 				D06BE50D27CC43BB004CFCC1 /* SceneDelegate.swift in Sources */,
+				D027937227EB11E100A8CC82 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
