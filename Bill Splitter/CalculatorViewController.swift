@@ -8,6 +8,8 @@
 import UIKit
 
 class CalculatorViewController: UIViewController {
+    
+    //MARK: IBOutles
 
     @IBOutlet weak var billTextField: UITextField!
     @IBOutlet weak var zeroPctButton: UIButton!
@@ -17,12 +19,15 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var calculateButton: UIButton!
     
     
+    //MARK: Global Variables
+    
     var tip = 0.10
     var billTotal = 0.0
     var numberOfPeople = 0
     var finalResult = "0.0"
    
     
+    //MARK: Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +35,7 @@ class CalculatorViewController: UIViewController {
 
     }
     
+    //MARK: IBActions
     
     @IBAction func tipChanged(_ sender: UIButton) {
         billTextField.endEditing(true)
